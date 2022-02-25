@@ -14,15 +14,32 @@
 
     <h1>Dessiner des formes</h1>
     <h2>Rectangle</h2>
+    <svg>
+      <rect class="rect" x="0" y="0" width="400" height="100" fill="red" onclick="lightblue"></rect>
+    </svg>
 
     <h2>Donut</h2>
-
+    <svg>
+      <circle cx="50" cy="50" r="60" fill="none" stroke="black" stoke-width="1" transform="translate(15,15)"></circle>
+      <circle cx="50" cy="50" r="30" fill="none" stroke="black" stoke-width="1" transform="translate(15,15)"></circle>
+    </svg>
 
     <h2>Ligne</h2>
-
+    <svg>
+   <line x1="20" y1="50" x2="80" y2="47" stroke="indianred" stroke-width="2"></line>
+    </svg>
 
     <h2>Path</h2>
-
+    <svg width="1000" height="100">
+      <path class="letter-c" d="M60,10 C-10,0 -10,100 60,90" fill="none" stroke="black" stroke-width="3" ></path>
+      <path class="letter-l" d="M 0 10 V 90 H 50" fill="none" stroke="black" stroke-width="3" transform="translate(70,0)"></path>
+      <path class="letter-a" d="M5,90 l30,-80 30,80 M20,50 l30,0" fill="none" stroke="black" stroke-width="3" transform="translate(125,0)"></path>
+      <path class="letter-r" d="M10,10 l0,80z l0,2 a10,5 -15 0,1 0,40 l40,37" fill="none" stroke="black" stroke-width="3" transform="translate(190,0)"></path>
+      <path class="letter-i" d="M5,10 l20,0 -10,0 0,80 -10,0 20,0" fill="none" stroke="black" stroke-width="3" transform="translate(245,0)" ></path>
+      <path class="letter-s" d="M70 30 A20 20 0 1 0 50 50 A20 20 0 1 1 30 70" fill="none" stroke="black" stroke-width="3" transform="translate(250,0)"></path>
+      <path class="letter-s" d="M70 30 A20 20 0 1 0 50 50 A20 20 0 1 1 30 70" fill="none" stroke="black" stroke-width="3" transform="translate(300,0)"></path>
+      <path class="letter-e" d="M65,10 l-60,0 0,80 50,0 M5,50 l40,0" fill="none" stroke="black" stroke-width="3" transform="translate(380,0)"></path>
+    </svg>
 
     <h1>Animer des formes</h1>
 
@@ -30,7 +47,7 @@
 
     <h2>On hover</h2>
 
-    <h2>Prenez la première lettre de votre prénom que vous avez créée ci-dessus. Faite bouger une forme de votre choix le long de la lettre</h2>
+    <h3>Prenez la première lettre de votre prénom que vous avez créée ci-dessus. Faite bouger une forme de votre choix le long de la lettre</h3>
 
 
   </body>
