@@ -2,6 +2,10 @@ body {
       font-family: 'Open Sans', sans-serif;
 }
 
-.lightblue{
- fill: lightblue;
+.Change {
+      fill: blueviolet;
+    }
+
+.changerayon{
+      r:100;
 }
