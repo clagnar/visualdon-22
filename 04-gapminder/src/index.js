@@ -1,4 +1,7 @@
 import * as d3 from 'd3'
+import './index.css';
+import './staticBubbleChart.js';
+import './choropleth.js';
 
 // Pour importer les données
 
