@@ -1,5 +1,5 @@
 import * as d3 from 'd3';
-import { getLifeExpectancy, swapNulls } from './data.js';
+import { getLifeExpectancy, swapNulls } from '../data.js';
 
 const year = 2021;
 // Importe les données
